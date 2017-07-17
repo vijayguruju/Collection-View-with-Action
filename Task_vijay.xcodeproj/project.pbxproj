@@ -7,34 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0201CC0B1E82950F003A0DDC /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201CC0A1E82950F003A0DDC /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		0201CC0E1E82A11C003A0DDC /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0201CC0D1E82A11C003A0DDC /* CollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		0240C1B51E84E5B600838402 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0240C1B41E84E5B600838402 /* CFNetwork.framework */; };
-		0240C1C01E84EE4800838402 /* EasyMailAlertSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0240C1BF1E84EE4800838402 /* EasyMailAlertSender.m */; settings = {ASSET_TAGS = (); }; };
-		0240C1C31E84EE5A00838402 /* EasyMailSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0240C1C21E84EE5A00838402 /* EasyMailSender.m */; settings = {ASSET_TAGS = (); }; };
-		0240C1C51E84F5F100838402 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1C41E84F5F100838402 /* 10.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1C71E84F60500838402 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1C61E84F60500838402 /* 9.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1C91E84F61700838402 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1C81E84F61700838402 /* 8.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1CB1E84F62200838402 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1CA1E84F62200838402 /* 7.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1CD1E84F63200838402 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1CC1E84F63200838402 /* 6.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1CF1E84F64100838402 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1CE1E84F64100838402 /* 5.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1D11E84F64D00838402 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1D01E84F64D00838402 /* 4.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1D31E84F65500838402 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1D21E84F65500838402 /* 3.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1D51E84F65E00838402 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1D41E84F65E00838402 /* 2.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240C1D71E84F66500838402 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0240C1D61E84F66500838402 /* 1.jpg */; settings = {ASSET_TAGS = (); }; };
-		0240DC371E83B301000F6F9C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0240DC361E83B301000F6F9C /* 2.png */; settings = {ASSET_TAGS = (); }; };
 		0291E3141E827D0400234115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E3131E827D0400234115 /* main.m */; };
 		0291E3171E827D0400234115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E3161E827D0400234115 /* AppDelegate.m */; };
 		0291E31A1E827D0400234115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E3191E827D0400234115 /* ViewController.m */; };
+		0291E31D1E827D0400234115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0291E31B1E827D0400234115 /* Main.storyboard */; };
 		0291E3201E827D0400234115 /* Task_vijay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0291E31E1E827D0400234115 /* Task_vijay.xcdatamodeld */; };
 		0291E3221E827D0400234115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0291E3211E827D0400234115 /* Assets.xcassets */; };
 		0291E3251E827D0400234115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0291E3231E827D0400234115 /* LaunchScreen.storyboard */; };
 		0291E3301E827D0400234115 /* Task_vijayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E32F1E827D0400234115 /* Task_vijayTests.m */; };
 		0291E33B1E827D0400234115 /* Task_vijayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E33A1E827D0400234115 /* Task_vijayUITests.m */; };
-		0291E34B1E827DCB00234115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0291E34A1E827DCB00234115 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		0291E34E1E827E1100234115 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E34D1E827E1100234115 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
-		0291E3511E827E1F00234115 /* ForgotpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E3501E827E1F00234115 /* ForgotpasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
-		0291E3571E828F5100234115 /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 0291E3561E828F5100234115 /* Details.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,32 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0201CC091E82950F003A0DDC /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		0201CC0A1E82950F003A0DDC /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		0201CC0C1E82A11C003A0DDC /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		0201CC0D1E82A11C003A0DDC /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
-		0240C1B41E84E5B600838402 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		0240C1BE1E84EE3F00838402 /* EasyMailAlertSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyMailAlertSender.h; sourceTree = "<group>"; };
-		0240C1BF1E84EE4800838402 /* EasyMailAlertSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyMailAlertSender.m; sourceTree = "<group>"; };
-		0240C1C11E84EE5000838402 /* EasyMailSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyMailSender.h; sourceTree = "<group>"; };
-		0240C1C21E84EE5A00838402 /* EasyMailSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyMailSender.m; sourceTree = "<group>"; };
-		0240C1C41E84F5F100838402 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
-		0240C1C61E84F60500838402 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		0240C1C81E84F61700838402 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
-		0240C1CA1E84F62200838402 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
-		0240C1CC1E84F63200838402 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
-		0240C1CE1E84F64100838402 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		0240C1D01E84F64D00838402 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
-		0240C1D21E84F65500838402 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		0240C1D41E84F65E00838402 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
-		0240C1D61E84F66500838402 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		0240DC361E83B301000F6F9C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		0291E30F1E827D0400234115 /* Task_vijay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task_vijay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0291E3131E827D0400234115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0291E3151E827D0400234115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0291E3161E827D0400234115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0291E3181E827D0400234115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0291E3191E827D0400234115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0291E31C1E827D0400234115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0291E31F1E827D0400234115 /* Task_vijay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task_vijay.xcdatamodel; sourceTree = "<group>"; };
 		0291E3211E827D0400234115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0291E3241E827D0400234115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,13 +53,6 @@
 		0291E3361E827D0400234115 /* Task_vijayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Task_vijayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0291E33A1E827D0400234115 /* Task_vijayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task_vijayUITests.m; sourceTree = "<group>"; };
 		0291E33C1E827D0400234115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0291E34A1E827DCB00234115 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		0291E34C1E827E0700234115 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		0291E34D1E827E1100234115 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		0291E34F1E827E1800234115 /* ForgotpasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgotpasswordViewController.h; sourceTree = "<group>"; };
-		0291E3501E827E1F00234115 /* ForgotpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotpasswordViewController.m; sourceTree = "<group>"; };
-		0291E3551E828F5100234115 /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
-		0291E3561E828F5100234115 /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0240C1B51E84E5B600838402 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +83,6 @@
 		0291E3061E827D0400234115 = {
 			isa = PBXGroup;
 			children = (
-				0240C1B41E84E5B600838402 /* CFNetwork.framework */,
 				0291E3111E827D0400234115 /* Task_vijay */,
 				0291E32E1E827D0400234115 /* Task_vijayTests */,
 				0291E3391E827D0400234115 /* Task_vijayUITests */,
@@ -154,32 +107,7 @@
 				0291E3161E827D0400234115 /* AppDelegate.m */,
 				0291E3181E827D0400234115 /* ViewController.h */,
 				0291E3191E827D0400234115 /* ViewController.m */,
-				0291E34A1E827DCB00234115 /* Main.storyboard */,
-				0291E34C1E827E0700234115 /* RegisterViewController.h */,
-				0291E34D1E827E1100234115 /* RegisterViewController.m */,
-				0291E34F1E827E1800234115 /* ForgotpasswordViewController.h */,
-				0291E3501E827E1F00234115 /* ForgotpasswordViewController.m */,
-				0240C1BE1E84EE3F00838402 /* EasyMailAlertSender.h */,
-				0240C1BF1E84EE4800838402 /* EasyMailAlertSender.m */,
-				0240C1C11E84EE5000838402 /* EasyMailSender.h */,
-				0240C1C21E84EE5A00838402 /* EasyMailSender.m */,
-				0201CC091E82950F003A0DDC /* HomeViewController.h */,
-				0201CC0A1E82950F003A0DDC /* HomeViewController.m */,
-				0201CC0C1E82A11C003A0DDC /* CollectionViewCell.h */,
-				0201CC0D1E82A11C003A0DDC /* CollectionViewCell.m */,
-				0240C1D61E84F66500838402 /* 1.jpg */,
-				0240C1D41E84F65E00838402 /* 2.jpg */,
-				0240C1D21E84F65500838402 /* 3.jpg */,
-				0240C1D01E84F64D00838402 /* 4.jpg */,
-				0240C1CE1E84F64100838402 /* 5.jpg */,
-				0240C1CC1E84F63200838402 /* 6.jpg */,
-				0240C1CA1E84F62200838402 /* 7.jpg */,
-				0240C1C81E84F61700838402 /* 8.jpg */,
-				0240C1C61E84F60500838402 /* 9.jpg */,
-				0240C1C41E84F5F100838402 /* 10.jpg */,
-				0240DC361E83B301000F6F9C /* 2.png */,
-				0291E3551E828F5100234115 /* Details.h */,
-				0291E3561E828F5100234115 /* Details.m */,
+				0291E31B1E827D0400234115 /* Main.storyboard */,
 				0291E3211E827D0400234115 /* Assets.xcassets */,
 				0291E3231E827D0400234115 /* LaunchScreen.storyboard */,
 				0291E3261E827D0400234115 /* Info.plist */,
@@ -318,20 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0240C1D11E84F64D00838402 /* 4.jpg in Resources */,
-				0240C1CD1E84F63200838402 /* 6.jpg in Resources */,
-				0240C1CF1E84F64100838402 /* 5.jpg in Resources */,
-				0240C1D31E84F65500838402 /* 3.jpg in Resources */,
-				0240C1C51E84F5F100838402 /* 10.jpg in Resources */,
 				0291E3251E827D0400234115 /* LaunchScreen.storyboard in Resources */,
 				0291E3221E827D0400234115 /* Assets.xcassets in Resources */,
-				0240C1CB1E84F62200838402 /* 7.jpg in Resources */,
-				0240C1C71E84F60500838402 /* 9.jpg in Resources */,
-				0240C1D51E84F65E00838402 /* 2.jpg in Resources */,
-				0240DC371E83B301000F6F9C /* 2.png in Resources */,
-				0291E34B1E827DCB00234115 /* Main.storyboard in Resources */,
-				0240C1C91E84F61700838402 /* 8.jpg in Resources */,
-				0240C1D71E84F66500838402 /* 1.jpg in Resources */,
+				0291E31D1E827D0400234115 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0291E34E1E827E1100234115 /* RegisterViewController.m in Sources */,
-				0291E3571E828F5100234115 /* Details.m in Sources */,
 				0291E3201E827D0400234115 /* Task_vijay.xcdatamodeld in Sources */,
-				0201CC0E1E82A11C003A0DDC /* CollectionViewCell.m in Sources */,
 				0291E31A1E827D0400234115 /* ViewController.m in Sources */,
 				0291E3171E827D0400234115 /* AppDelegate.m in Sources */,
-				0240C1C31E84EE5A00838402 /* EasyMailSender.m in Sources */,
-				0240C1C01E84EE4800838402 /* EasyMailAlertSender.m in Sources */,
-				0291E3511E827E1F00234115 /* ForgotpasswordViewController.m in Sources */,
 				0291E3141E827D0400234115 /* main.m in Sources */,
-				0201CC0B1E82950F003A0DDC /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +312,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		0291E31B1E827D0400234115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0291E31C1E827D0400234115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		0291E3231E827D0400234115 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -584,7 +502,6 @@
 				0291E3411E827D0500234115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		0291E3421E827D0500234115 /* Build configuration list for PBXNativeTarget "Task_vijayTests" */ = {
 			isa = XCConfigurationList;
@@ -593,7 +510,6 @@
 				0291E3441E827D0500234115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		0291E3451E827D0500234115 /* Build configuration list for PBXNativeTarget "Task_vijayUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,7 +518,6 @@
 				0291E3471E827D0500234115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
